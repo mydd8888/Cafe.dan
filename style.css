@@ -33,11 +33,12 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #0b090c;
+    max-width: 1450px;
 }
 
 /* header */
 #header {
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     background-color: #374681;
@@ -85,7 +86,7 @@ body {
 /* gnb */
 #gnb {
     background-color: #374681;
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     padding: 10px 0;
@@ -105,7 +106,7 @@ body {
 
 /* main */
 #container {
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
     background-color: #eee;
 }
