@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAFE. DAN</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- 나눔고딕폰트 -->
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <ul id="login">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">장바구니</a></li>
+            <li><a href="#">마이쇼핑</a></li>
+        </ul>
+        <div id="logo">
+            <img src="./images/logo2.png" alt="로고이미지">
+        </div><!--logo-->
+        <p><input type="search" class="search"></p>
+    </div><!--header-->
+
+    <ul id="gnb">
+        <li><a href="#">식품</a></li>
+        <li><a href="#">전체상품</a></li>
+        <li><a href="#">묻고 답하기</a></li>
+        <li><a href="#">공지사항</a></li>
+        <li><a href="#">리뷰이벤트</a></li>
+        <li><a href="#">쇼핑스토리</a></li>
+        <li><a href="#">판매자 정보</a></li>
+    </ul><!--gnb-->
+
+    <div id="container">
+        <div id="main">
+            <div id="main_img">
+                <img src="./images/main.jpg" alt="메인이미지">
+            </div><!--main_img-->
+            <div id="main_text">
+                <h3>콜드브루 500ml 1병</h3>
+                <p>더치커피원액</p>
+                <p class="right">15,000원</p>
+                <div class="count">
+                    <select name="state" id="state">
+                        <option value="selected">수량을 선택하세요</option>
+                    </select>
+                    <select name="state" id="state">
+                        <option value="selected">용량을 선택하세요</option>
+                    </select>
+                    <select name="state" id="state">
+                        <option value="selected">추가구성을 선택하세요</option>
+                    </select>
+                </div><!--count-->
+                <p class="small">택배배송 3,000원(주문시 결제/우체국택배/제주 도서지역 추가 3,000원)</p>
+                <div class="total">
+                    <p class="price">총 상품금액</p>
+                    <p class="number">총 수량 0개</p>
+                    <h3 class="bold">0원</h3>
+                </div><!--total-->
+                <p class="main_btn"><a href="#">구매하기</a></p>
+            </div><!--main_text-->
+        </div><!--main-->
+    </div><!--container-->
+
+
+    <div id="product">
+        <div class="product_inner">
+            <h3 class="product_title">상품정보</h3>
+            <table border="1" cellspacing="0" align="center" width=1000px cellpadding="5">
+                <tr>
+                    <th>상품번호</th>
+                    <td>12345678</td>
+                    <th>상품상태</th>
+                    <td>신상품</td>
+                </tr>
+                <tr>
+                    <th>제조사</th>
+                    <td>카페. 단</td>
+                    <th>브랜드</th>
+                    <td>카페. 단</td>
+                </tr>
+                <tr>
+                    <th>모델명</th>
+                    <td>콜드브루 500ml</td>
+                    <th>원산지</th>
+                    <td>국산(부산광역시)</td>
+                </tr>
+                <tr>
+                    <th>용기타입</th>
+                    <td>유리병</td>
+                    <th>용량</th>
+                    <td>500ml</td>
+                </tr>
+                <tr>
+                    <th>영수증 발급</th>
+                    <td colspan="3">신용카드전표, 현금영수증발급</td>
+                </tr>
+                <tr>
+                    <th rowspan="4">A/S 안내</th>
+                    <td rowspan="4" colspan="3" class="left">010-1234-5678<br><br>제품의 변질이나 하자시<br>1.택배송장 사진
+                        1컷<br>2.제조일찍힌사진 포함 제품 사진
+                        2컷</td>
+                </tr>
+            </table>
+        </div><!--product_inner-->
+    </div><!--product-->
+
+    <div id="contents">
+        <h1 id="main_title">단 하나의 커피, 카페. 단</h1>
+        <img src="./images/con1.jpg" alt="내용1이미지">
+        <img src="./images/con2.jpg" alt="내용2이미지">
+        <img src="./images/con3.jpg" alt="내용3이미지">
+        <img src="./images/con4.jpg" alt="내용4이미지">
+    </div><!--contents-->
+</body>
+
+</html>
